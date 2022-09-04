@@ -13,19 +13,18 @@ if (M <= 0 || N <= 0)
 {
     Console.Write("The input number is not natural");
 }
-
 else
 {
     Console.WriteLine("All natural numbers from M to N: ");
 
     {
         int range = 0;
-        for (int i = 1; M <= N; i++)
-
+        while (M <= N)
         {
             M++;
             range = M;
-            Console.Write($"{range - 1}, ");
+            Console.Write(" ");
+            Console.Write($"{range - 1}");
         }
     }
 }
