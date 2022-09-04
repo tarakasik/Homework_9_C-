@@ -4,6 +4,7 @@
 
 // M = 4; N = 8. -> ""4, 6, 7, 8""
 
+Console.Clear();
 Console.WriteLine("Input M : ");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input N : ");
@@ -28,3 +29,20 @@ else
         }
     }
 }
+
+/////////Второй способ.
+// Console.Clear();
+// Console.Write("Input number M:");
+// int M = int.Parse(Console.ReadLine()!);
+// Console.Write("Input number N:");
+// int N = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("All natural numbers of M to N = "+SumNumbers(M,N));
+
+//  string SumNumbers(int start, int end)
+// {
+//     if (start == end) return start.ToString();
+//     {
+//         return (start + " " + SumNumbers(start + 1, end));
+//     }
+
+// }
